@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                 Expanded(
                     flex: 4,
                     child: Container(
-                        child: GridView.builder
+                        child: GridView.builder(
                             itemCount: buttons.length,
                             gridDelegate:
                                 SliverGridDelegateWithFixedCrossAxisCount(
